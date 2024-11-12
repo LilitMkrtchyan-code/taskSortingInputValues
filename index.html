@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div id="box-container">
+          <div class="box">
+            <form action="#" id="bubble-sort-form">
+              <label for="bubble-sort-input">Enter the numbers:</label>
+              <input style="width: 600px" type="text" id="bubble-sort-input" />
+              <button style="width: 150px;" type="submit">Bubble Sort</button>
+              <button type="button" class="clear-button" data-input="bubble-sort-input" data-result="result-bubble-sort">Clear</button>
+            </form>
+            <div id="result-bubble-sort"></div>
+          </div>
+          <div class="box">
+           <form action="#" id="selection-sort-form">
+             <label for="selection-sort-input">Enter the numbers:</label>
+             <input style="width: 600px" type="text" id="selection-sort-input" />
+             <button style="width: 150px;" type="submit">Selection Sort</button>
+             <button type="button" class="clear-button" data-input="selection-sort-input" data-result="result-selection-sort">Clear</button>
+           </form>
+           <div id="result-selection-sort"></div>
+         </div>
+         <div class="box">
+           <form action="#" id="insertion-sort-form">
+             <label for="insertion-sort-input">Enter the numbers:</label>
+             <input style="width: 600px" type="text" id="insertion-sort-input" />
+             <button style="width: 150px;" type="submit">Insertion Sort</button>
+             <button type="button" class="clear-button" data-input="insertion-sort-input" data-result="result-insertion-sort">Clear</button>
+           </form>
+           <div id="result-insertion-sort"></div>
+         </div>
+         <div class="box">
+           <form action="#" id="merge-sort-form">
+             <label for="merge-sort-input">Enter the numbers:</label>
+             <input style="width: 600px" type="text" id="merge-sort-input" />
+             <button style="width: 150px;" type="submit">Merge Sort</button>
+             <button type="button" class="clear-button" data-input="merge-sort-input" data-result="result-merge-sort">Clear</button>
+           </form>
+           <div id="result-merge-sort"></div>
+         </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
